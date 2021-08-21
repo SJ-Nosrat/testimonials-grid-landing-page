@@ -1,0 +1,8 @@
+@use '../utils' as u;
+
+body {
+    display: grid;
+    place-content: center;
+    margin: u.rem(71) u.rem(24);
+    background-color: var(--neutral-grayish-blue);
+}

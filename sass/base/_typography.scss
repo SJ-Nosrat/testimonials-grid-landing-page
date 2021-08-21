@@ -1,0 +1,7 @@
+@use '../utils' as u;
+
+body {
+    font-size: u.rem(13);
+    font-family: var(--ff-barlow);
+    font-weight: u.fontWeight(medium-500);
+}

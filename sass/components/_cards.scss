@@ -1,0 +1,8 @@
+@use '../utils'as u;
+
+.main__card {
+    padding: u.rem(26) u.rem(32) u.rem(32);
+    border-radius: u.rem(7);
+    margin-bottom: u.rem(24);
+    background-color: var(--moderate-violet);
+}

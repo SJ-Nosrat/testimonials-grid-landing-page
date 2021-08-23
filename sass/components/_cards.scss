@@ -4,5 +4,24 @@
     padding: u.rem(26) u.rem(32) u.rem(32);
     border-radius: u.rem(7);
     margin-bottom: u.rem(24);
+}
+
+.main__card--daniel {
     background-color: var(--moderate-violet);
+}
+
+.main__card--jonathan {
+    background-color: var(--dark-grayish-blue);
+}
+
+.main__card--jeanette {
+    background-color: var(--white);
+}
+
+.main__card--patrick {
+    background-color: var(--dark-blackish-blue);
+}
+
+.main__card--kira {
+    background-color: var(--white);
 }

@@ -98,7 +98,26 @@ body {
   padding: 1.625rem 2rem 2rem;
   border-radius: 0.4375rem;
   margin-bottom: 1.5rem;
+}
+
+.main__card--daniel {
   background-color: var(--moderate-violet);
+}
+
+.main__card--jonathan {
+  background-color: var(--dark-grayish-blue);
+}
+
+.main__card--jeanette {
+  background-color: var(--white);
+}
+
+.main__card--patrick {
+  background-color: var(--dark-blackish-blue);
+}
+
+.main__card--kira {
+  background-color: var(--white);
 }
 
 body {

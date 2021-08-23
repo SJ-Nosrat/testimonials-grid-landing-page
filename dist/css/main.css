@@ -187,4 +187,14 @@ body {
   background-color: var(--neutral-grayish-blue);
 }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20.4375rem, 0.75fr));
+}
+@media (min-width: 450px) {
+  main {
+    gap: 1.5rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

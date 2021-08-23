@@ -186,6 +186,11 @@ body {
   margin: 4.4375rem 1.5rem;
   background-color: var(--neutral-grayish-blue);
 }
+@media (min-width: 1200px) {
+  body {
+    margin: 0;
+  }
+}
 
 main {
   display: grid;
@@ -195,6 +200,53 @@ main {
 @media (min-width: 450px) {
   main {
     gap: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .main__card--daniel {
+    grid-row: 1;
+    grid-column: 1/span 2;
+    width: 33.75rem;
+    height: 17.625rem;
+  }
+  .main__card--daniel .excerpt {
+    margin-bottom: 1rem;
+  }
+
+  .main__card--jonathan {
+    grid-row: 1;
+    grid-column: 3;
+    width: 15.9375rem;
+    height: 17.625rem;
+  }
+
+  .main__card--kira {
+    grid-row: 1;
+    grid-column: 4;
+    width: 15.9375rem;
+    height: 35.75rem;
+  }
+
+  .main__card--jeanette {
+    grid-row: 1;
+    grid-column: 1;
+    width: 15.9375rem;
+    height: 16.625rem;
+    transform: translateY(19.125rem);
+  }
+
+  .main__card--patrick {
+    grid-row: 1;
+    grid-column: 2/span 2;
+    width: 33.75rem;
+    height: 16.625rem;
+    transform: translateY(19.125rem);
   }
 }
 

@@ -5,6 +5,10 @@ body {
     place-content: center;
     margin: u.rem(71) u.rem(24);
     background-color: var(--neutral-grayish-blue);
+
+    @media (min-width: 1200px) {
+        margin: 0;
+    }
 }
 
 main {
@@ -16,4 +20,54 @@ main {
         gap: u.rem(24);
 
     }
+
+    @media (min-width: 1200px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .main__card--daniel {
+        grid-row: 1;
+        grid-column: 1 / span 2;
+        width: u.rem(540);
+        height: u.rem(282);
+
+        .excerpt {
+            margin-bottom: u.rem(16);
+        }
+    }
+
+    .main__card--jonathan {
+        grid-row: 1;
+        grid-column: 3;
+        width: u.rem(255);
+        height: u.rem(282);
+    }
+
+    .main__card--kira {
+        grid-row: 1;
+        grid-column: 4;
+        width: u.rem(255);
+        height: u.rem(572);
+    }
+
+    .main__card--jeanette {
+        grid-row: 1;
+        grid-column: 1;
+        width: u.rem(255);
+        height: u.rem(266);
+        transform: translateY(u.rem(306));
+    }
+
+    .main__card--patrick {
+        grid-row: 1;
+        grid-column: 2 / span 2;
+        width: u.rem(540);
+        height: u.rem(266);
+        transform: translateY(u.rem(306));
+    }
+
 }

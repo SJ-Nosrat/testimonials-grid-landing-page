@@ -189,6 +189,7 @@ body {
 
 main {
   display: grid;
+  place-content: center;
   grid-template-columns: repeat(auto-fit, minmax(20.4375rem, 0.75fr));
 }
 @media (min-width: 450px) {

@@ -4,6 +4,17 @@
     padding: u.rem(26) u.rem(32) u.rem(32);
     border-radius: u.rem(7);
     margin-bottom: u.rem(24);
+
+    .excerpt {
+        font-size: u.rem(20);
+        line-height: u.rem(24);
+        font-weight: u.fontWeight(semiBold-600);
+        margin: u.rem(18) 0 u.rem(16);
+    }
+
+    .desc {
+        line-height: u.rem(18);
+    }
 }
 
 .main__card--daniel {
@@ -25,3 +36,4 @@
 .main__card--kira {
     background-color: var(--white);
 }
+
